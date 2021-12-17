@@ -13,11 +13,12 @@ This package is made for Turtlebot3 waffle_pi navigation in an unknown environme
 - [OpenCV](https://pypi.org/project/opencv-python/)
 
 ## Demo Terminal Commands
-### Terminal window 1
+### Terminal tab 1
 > export TURTLEBOT3_MODEL=waffle_pi
+
 > roslaunch debi_nav project.launch
-### Terminal window 2
+### Terminal tab 2
 > export TURTLEBOT3_MODEL=waffle_pi
 > roslaunch turtlebot3_slam turtlebot3_slam.launch slam_methods:=gmapping
-### Terminal window 3
+### Terminal tab 3
 > roslaunch debi_nav debi.launch
