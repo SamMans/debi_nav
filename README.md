@@ -1,0 +1,2 @@
+# debi_nav
+This package is designed for Turtlebot3 waffle_pi navigation in an unknown environment. The package mainly relies on an A* path planning algorithm as well as a low level model predicitve controller for goal tracking. Moreover, the package can be integrated with the gmapping package in order to use all available sensory data "from camera and laser scans" to generate a global map that takes into account all solid and visual obstacles. Accordingly, the robot is able to avoid areas with specific colors and maneuver between walls simultaneously.
