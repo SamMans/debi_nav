@@ -19,6 +19,7 @@ This package is made for Turtlebot3 waffle_pi navigation in an unknown environme
 > roslaunch debi_nav project.launch
 ### Terminal tab 2
 > export TURTLEBOT3_MODEL=waffle_pi
+
 > roslaunch turtlebot3_slam turtlebot3_slam.launch slam_methods:=gmapping
 ### Terminal tab 3
 > roslaunch debi_nav debi.launch
