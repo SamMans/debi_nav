@@ -4,20 +4,20 @@ This package is made for Turtlebot3 waffle_pi navigation in an unknown environme
 ## System Requirements and Installations
 - ROS Noetic
 - Python3
-- Turtlebot3 simulation package [tt](https://emanual.robotis.com/docs/en/platform/turtlebot3/simulation/)
+- [Turtlebot3 simulation package](https://emanual.robotis.com/docs/en/platform/turtlebot3/simulation/)
 
 ## Dependencies
-- Casadi library "$ pip install casadi"
-- scipy library "$ pip install scipy"
-- pathfinding library "$ pip install pathfinding"
-- OpenCV "$ pip install opencv-python
+- [Casadi library](https://web.casadi.org/get/)
+- [scipy library](https://pypi.org/project/scipy/)
+- [pathfinding library](https://github.com/brean/python-pathfinding)
+- [OpenCV](https://pypi.org/project/opencv-python/)
 
 ## Demo Terminal Commands
 ### First terminal
-- $ export TURTLEBOT3_MODEL=waffle_pi
-- $ roslaunch debi_nav project.launch
+> export TURTLEBOT3_MODEL=waffle_pi
+> roslaunch debi_nav project.launch
 ## Second terminal
-- $ export TURTLEBOT3_MODEL=waffle_pi
-- $ roslaunch turtlebot3_slam turtlebot3_slam.launch slam_methods:=gmapping
+> export TURTLEBOT3_MODEL=waffle_pi
+> roslaunch turtlebot3_slam turtlebot3_slam.launch slam_methods:=gmapping
 ## Third terminal
-- $ roslaunch debi_nav debi.launch
+> roslaunch debi_nav debi.launch
