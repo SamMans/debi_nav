@@ -14,10 +14,10 @@ This package is made for Turtlebot3 waffle_pi navigation in an unknown environme
 
 ## Demo Terminal Commands
 ### First terminal
-> export TURTLEBOT3_MODEL=waffle_pi
-> roslaunch debi_nav project.launch
+- > export TURTLEBOT3_MODEL=waffle_pi
+- > roslaunch debi_nav project.launch
 ## Second terminal
-> export TURTLEBOT3_MODEL=waffle_pi
-> roslaunch turtlebot3_slam turtlebot3_slam.launch slam_methods:=gmapping
+- > export TURTLEBOT3_MODEL=waffle_pi
+- > roslaunch turtlebot3_slam turtlebot3_slam.launch slam_methods:=gmapping
 ## Third terminal
-> roslaunch debi_nav debi.launch
+- > roslaunch debi_nav debi.launch
