@@ -4,7 +4,7 @@ This package is made for Turtlebot3 waffle_pi navigation in an unknown environme
 ## System Requirements and Installations
 - ROS Noetic
 - Python3
-- Turtlebot3 simulation package "https://emanual.robotis.com/docs/en/platform/turtlebot3/simulation/"
+- Turtlebot3 simulation package [tt](https://emanual.robotis.com/docs/en/platform/turtlebot3/simulation/)
 
 ## Dependencies
 - Casadi library "$ pip install casadi"
