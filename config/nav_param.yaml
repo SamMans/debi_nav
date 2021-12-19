@@ -1,0 +1,12 @@
+lin_thres: 0.1 #Intermediate target x/y coordinate error threshold
+top_x: 114 #Image projection parameter
+top_y: 8 #Image projection parameter
+bottom_x: 230 #Image projection parameter
+bottom_y: 240 #Image projection parameter
+col_diam: 0.55 #collision diameter for waffle_pi (m)
+v_max: 0.26 #controller linear velocity limit (m/s)
+omega_max: 0.9 #controller angular velocity limit (rad/s)
+T: 0.05 #controller sampling time
+N: 10 #controller prediction horizon
+pw: 0.5 #controller performance weight
+ew: 0.05 #controller effort weight
