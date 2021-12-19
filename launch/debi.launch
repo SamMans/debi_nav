@@ -1,0 +1,8 @@
+<launch>
+  <rosparam command="load" file="$(find turtlebot3_slam)/config/gmapping_params.yaml"/>
+  <rosparam command="load" file="$(find debi_nav)/config/nav_param.yaml"/>
+  <node name="mp_debi" type="Mplan.py" pkg="debi_nav" output="screen"/>
+  <node name="img_proj_debi" type="Vscan.py" pkg="debi_nav" output="screen"/>
+  <node name="pp_debi" type="Pplan.py" pkg="debi_nav" output="screen"/>
+  <node name="MPC_debi" type="Ocon.py" pkg="debi_nav" output="screen"/>
+</launch>
